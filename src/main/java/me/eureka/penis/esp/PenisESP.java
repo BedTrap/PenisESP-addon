@@ -19,7 +19,7 @@ import java.util.List;
  * @author Eureka
  */
 
-public class PenisEsp extends Module {
+public class PenisESP extends Module {
     public SettingGroup sgGeneral = settings.getDefaultGroup();
     public SettingGroup sgRender = settings.createGroup("Render");
 
