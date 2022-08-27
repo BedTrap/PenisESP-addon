@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "penisesp",
+  "version": "${version}",
+  "name": "PenisESP",
+  "description": "Prolly the best addon for Meteor Client",
+  "authors": [
+    "EurekaEffect"
+  ],
+  "contact": {
+    "repo": "https://github.com/BedTrap/peni"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "me.eureka.penis.esp.Addon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "170,90,0"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
