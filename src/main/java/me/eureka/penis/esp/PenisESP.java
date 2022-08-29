@@ -33,7 +33,7 @@ public class PenisESP extends Module {
     public Setting<SettingColor> penisColor = sgRender.add(new ColorSetting.Builder().name("penis-color").defaultValue(new SettingColor(170, 90, 0,255)).build());
     public Setting<SettingColor> headColor = sgRender.add(new ColorSetting.Builder().name("head-color").defaultValue(new SettingColor(240, 50, 180,75)).build());
 
-    public PenisEsp() {
+    public PenisESP() {
         super(Categories.Render, "penis-ESP", "Renders the player penis and balls");
     }
 
