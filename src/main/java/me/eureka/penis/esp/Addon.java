@@ -17,6 +17,7 @@ public class Addon extends MeteorAddon {
         MeteorClient.EVENT_BUS.registerLambdaFactory("me.eureka.penis.esp", (lookupInMethod, klass) -> (MethodHandles.Lookup) lookupInMethod.invoke(null, klass, MethodHandles.lookup()));
 
         Modules.get().add(new PenisESP());
+        Modules.get().add(new BoobRenderer());
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             LOG.info("Thanks for using Penis-ESP addon, don't forget to star my repo :)");
